@@ -1,0 +1,97 @@
+label {
+  text-align: left;
+  font-family: 'Merriweather', serif;
+}
+
+textarea {
+  height: 100px;
+}
+
+.form-title {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.asterisk {
+  color: #e60000;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 3px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+  font-family: 'Montserrat', sans-serif;
+}
+
+input[type=tel], select, textarea {
+  width: 100%;
+  padding: 3px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+  font-family: 'Montserrat', sans-serif;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: 'Merriweather', serif;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+
+}
+
+.cform {
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.idesc {
+  height: 200px;
+}
+
+@media only screen and (max-width: 400px) {
+  .form-title {
+    font-size: 20px;
+  }
+  
+  label {
+    font-size: 17px;
+  }
+  
+  .cform {
+    margin: 20px;
+  }
+  
+  input[type=submit] {
+    width: 100px;
+    height: 50px;
+  }
+}
